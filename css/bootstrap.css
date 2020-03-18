@@ -66,7 +66,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: center;
-    background-color: #fff;
+    background-color: #FFECCC;
 }
 
 [tabindex="-1"]:focus {
@@ -83,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
-
 
 
 p {
@@ -219,11 +218,14 @@ img {
 }
 
 #bodysub {
-    margin: 8.024vw 5.714vw 0vw 5.714vw;
-    line-height: 1.75;
-    max-width: 960px;
+    margin-top: 5vw;
+    margin-bottom: 0vw;
     margin-left: auto;
     margin-right: auto;
+    padding: 1em;
+    line-height: 1.75;
+    max-width: 960px;
+    background-color: #F2D0A4;
 }
 
 svg {
@@ -386,7 +388,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
     font-size: 5.5rem;
-    color: forestgreen;
+    color: #870058;
 }
 
 h2, .h2 {
@@ -4069,6 +4071,11 @@ input[type="button"].btn-block {
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    margin: 0.25em;
+    background-color: #c8d6af;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #a4303f;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -6364,7 +6371,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #f2d0a4 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
