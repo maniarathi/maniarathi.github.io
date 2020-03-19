@@ -60,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
     margin: 0;
-    font-family: "Assistant", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Assistant", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -228,6 +228,10 @@ img {
     background-color: #F2D0A4;
 }
 
+#subtitle {
+    font-size: 1.5rem;
+}
+
 svg {
     overflow: hidden;
     vertical-align: middle;
@@ -379,8 +383,9 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    font-family: inherit;
+    font-family: "Playfair Display", serif;
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
